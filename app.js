@@ -24,6 +24,15 @@ app.use(cookieParser());
 app.use(bodyParser.json());
 app.use(express.urlencoded({extended:false}));
 app.use(express.json());
+
+app.use(
+  cors({
+    credentials: true,
+    origin: ["http://localhost:3000"],
+    methods: ["GET", "POST"],
+  })
+);
+
 app.use("/api/user",userroute);
 app.use('/api/res',resturantroute);
 app.use('/orders',orderroute);

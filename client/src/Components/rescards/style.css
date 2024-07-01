@@ -1,0 +1,87 @@
+.navit{
+  border: 3px solid blue;
+}
+
+
+.cardimgs{
+  /* border: 4px solid rebeccapurple; */
+  text-align: center;
+  width: 100%;
+}
+
+.cardimgimg{
+  /* border: 4px solid green; */
+  width: 100%;
+}
+.cardmenu{
+    display: flex;
+    flex-wrap: wrap;
+    width:90%;
+    margin: auto;
+}
+
+.cardsmenu{
+    width:35rem;
+    border: 5px solid grey;
+    margin: 2rem;
+    padding: 2rem;
+}   
+
+
+
+@media screen and (max-width: 1250px) {
+  .cardsmenu{
+      width:50rem;
+      margin: 3rem;
+  }  
+} 
+
+
+
+@media screen and (max-width: 1000px) {
+    .cardsmenu{
+      width:50rem;
+      margin: 3rem;
+    }  
+  } 
+
+
+  @media screen and (max-width: 900px) {
+    .cardsmenu{
+      width:50rem;
+      margin: 3rem;
+    }  
+  }
+  
+  @media screen and (max-width: 730px) {
+    .cardsmenu{
+      width:50rem;
+      margin: 3rem;
+    }  
+  } 
+
+  @media screen and (max-width: 630px) {
+    .cardsmenu{
+      width:50rem;
+      margin: 3rem;
+    }  
+    .cardmenu{
+        width:100%;
+    }
+  } 
+
+
+@media screen and (max-width: 560px) {
+    .cardsmenu{
+      width:40rem;
+      margin: 3rem;
+}  
+  }
+  
+  @media screen and (max-width: 430px) {
+    .cardsmenu{
+        min-width:100%;
+        margin: 0.5rem;  
+}  
+  }  
+  

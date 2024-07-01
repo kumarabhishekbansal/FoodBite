@@ -1,0 +1,168 @@
+/* media queries  */
+
+@media screen and (max-width:1250px){
+
+    .home .content{
+        text-align: center;
+        padding: 4rem;
+    }
+
+    #content_heading{
+        /* border: 2px solid blue; */
+        font-size: 10rem;
+        text-align: center;
+    }
+    #p1{
+        font-size: 5rem;
+        text-align: center;
+    }
+
+    .linkbtn{
+        text-align: center;
+        /* border: 5px solid black !important; */
+        width: 50rem !important;
+        height: 10rem !important;
+        border-radius: 10rem !important;
+
+    }
+
+    .about{
+        margin: 30rem 0rem;
+    }
+
+    .about .content{
+        text-align: center;
+        padding: 4rem;
+    }
+
+    #head-ing{
+        /* border: 2px solid blue; */
+        text-align: center;
+        font-size: 10rem;
+    }
+
+    #p2{
+        font-size: 3rem;
+    }
+    #p3{
+        font-size: 2rem;
+    }
+
+    .menu .heading{
+        font-size: 10rem;
+    }
+
+    .list li{
+        font-size: 5rem;
+    }
+    .list .btn{
+        /* border: 5px solid red; */
+        width: 60rem;
+        height: 10rem;
+        font-size: 5rem;
+    }
+
+    .menu .row .image{
+        /* border:4px solid green; */
+        width: 100rem !important;
+        flex:2 4 50rem !important;
+    }
+
+    .menu .row .content{
+        margin: 10rem 0rem;
+        font-size: 10rem !important;
+        /* border: 4px solid green; */
+        flex:2 6 70rem !important;
+    }
+
+    .menu .row .content .info h3{
+        font-size: 5rem !important;
+
+    }
+    .menu .row .content .info p{
+        font-size: 3rem !important;
+
+    }
+    
+    .gallery{
+        margin-top: 20rem;
+        /* border: 20px solid red; */
+        height:100vh;
+        width:150vw !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* display: grid;
+        place-items: center; */
+        position: relative;
+        left: 50%;
+        /* transform: translate(50%); */
+    }
+    .gallery .heading{
+        /* transform: translate(-60%); */
+        font-size: 10rem;
+        text-align: center;
+        width: 100vw;
+        position: relative;
+        left: 50%;
+    }
+    .gallery .box-container{
+        /* border: 5px solid purple; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        position: relative;
+        left: 50%;
+    }
+    
+    .gallery .box-container .box{
+        /* border:5px solid green; */
+        height:40rem !important;
+        width:50rem !important;
+        margin:2rem;
+        cursor: pointer;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .gallery .box-container .box img{
+        height:100%;
+        width:100%;
+        object-fit: cover;
+    }
+}
+
+
+@media (max-width:991px){
+
+
+    .home::before,
+    .home::after{
+        display: none;
+    }
+
+}
+
+@media (max-width:768px){
+    .home .content{
+        text-align: center;
+    }
+
+    .home .content h3{
+        font-size: 4.5rem;
+    }
+
+}
+
+@media (max-width:500px){
+
+    html{
+        font-size: 50%;
+    }
+
+    section{
+        padding:1rem 5%;
+        padding-top: 8.5rem;
+    }
+}

@@ -1,0 +1,14 @@
+.admin_Res_table{
+    margin-top: 10rem;
+}
+
+.table_Admin{
+    font-size: 1.4rem;
+}
+.orderidinpt{
+    font-size: 1.2rem;
+    background-color: grey;
+    border: none;
+    text-align: center;
+    padding: 1rem;
+}

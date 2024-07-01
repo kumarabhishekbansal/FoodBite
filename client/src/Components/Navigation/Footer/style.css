@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&family=Oswald&display=swap');
+.main_footer_div{
+    font-size: 1.8rem;
+    position: relative;
+    bottom: 0; 
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    color: white;
+    /* border: 5px solid red; */
+}
+
+.sec_foot1{
+    /* border:2px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.div1,.div2,.div3,.div4{
+    padding: 2rem;
+    /* border:2px solid green; */
+}
+
+.sec_foot2{
+    /* border:2px solid blue; */
+    display: flex;
+    flex-direction: column;
+}
+
+.mbb{
+    display: flex;
+    justify-content: center;
+}
+.mbb li{
+    list-style-type: none;
+}
+
+
+@media screen and (max-width: 1250px) {
+    .main_footer_div{
+        font-size: 4rem;
+    }
+  }
+
+@media screen and (max-width: 650px) {
+    .bt{
+        margin-bottom: 3rem;
+    }
+  }
+
+
+  
+  @media screen and (max-width: 564px) {
+    .main_footer_div{
+        font-size: 3rem;
+    }
+    .main_footer_div h2{
+        font-size: 3rem;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .main_footer_div{
+        font-size: 3rem;
+    }
+    .main_footer_div h2{
+        font-size: 3rem;
+    }.div1,.div2,.div3,.div4{
+        padding: 0.5rem;
+        /* border:2px solid green; */
+    }
+  }
+
+
+
+

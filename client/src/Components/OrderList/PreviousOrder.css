@@ -1,0 +1,204 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  /* body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+  } */
+ 
+  .order-details {
+    display: none;
+  }
+  
+  .history_order_header {
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .history_order_header h1 {
+    margin: 0;
+    font-size: 2rem;
+  }
+  
+  .orders-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 3rem;
+  }
+  .itms {
+    height: 10rem;
+    width: 10rem;
+    text-align: center;
+  }
+  .order-item {
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    position: relative;
+  }
+  
+  .order-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .order-info h2 {
+ 
+    margin-right: 1rem;
+  }
+  
+  .order-details h3 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
+  
+  .order-details ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .order-details li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .order-item:hover .order-details {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    z-index: 1;
+    animation: fade-in 0.5s forwards;
+  }
+  
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .order-details ul li{
+    display: flex;
+  }
+  
+  .rightContent{
+    margin-left: 13rem;
+  }
+  .RestoName{
+    margin-left: 40rem;
+  }
+  .leftImage{
+    margin-left: 30rem;
+  }
+
+
+  /* history order */
+  .order_history_div{
+    margin: 10rem;
+    height: 180vh;
+    /* border:5px solid green; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* width: 100vw; */
+  }
+
+  .main_order_item_detail_div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+.order_item_detail_div{
+    /* border:2px solid orange; */
+    width: 30rem;
+    text-align: center;
+  }
+.order_item_detail_div h3{
+    font-size: 2rem;
+  }
+  .order-info p{
+    background-color: antiquewhite;
+    border:2px solid antiquewhite;
+    padding: 1rem;
+  }
+
+  .bg_div_history_food{
+    background-image: url("../Images/bg2.jpg");
+    height: 200vh;
+    opacity: 0.4;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .div_history{
+    margin: 2rem 0rem;
+  }
+
+
+
+  /*  */
+.order_status_user_main_div{
+  /* border:2px solid red; */
+  width: 100%;
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.order_status_div{
+  /* border: 4px solid blue; */
+  width: 20%;
+  height: 10rem;
+}
+
+.hrline{
+  border: 5px solid black;
+  border-radius: 10rem;
+  margin: 2rem 0rem;
+}
+.hrlinedone{
+  border: 5px solid blueviolet;
+  border-radius: 10rem;
+  margin: 2rem 0rem;
+}
+
+.order_detail_heading{
+  margin-top: 5rem;
+}
+
+.feedback_main_div{
+  margin-top: 10rem;
+  border:2px solid red;
+  width: 100%;
+  height: 10rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color:aquamarine;
+  border-radius: 10rem;
+
+}
+
+.feedback_icon{
+  cursor: pointer;
+}
+
+.feedback_icon:hover{
+  cursor: pointer;
+  color:green;
+}

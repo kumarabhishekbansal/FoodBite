@@ -3,6 +3,7 @@
   "homepage": ".",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "proxy": "http://localhost:8000/",
   "dependencies": {
     "@cloudinary/react": "^1.11.2",
